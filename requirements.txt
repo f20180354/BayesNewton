@@ -1,9 +1,12 @@
-jax==0.4.2
-jaxlib==0.4.2
+jax==0.3.14
+jaxlib==0.3.14
 objax==1.6.0
+grpcio==1.47.0
+parameterized==0.8.1
+tensorflow-gpu==2.6.5
 numba
 numpy
 matplotlib
 scipy
-sklearn
+scikit-learn
 pandas
