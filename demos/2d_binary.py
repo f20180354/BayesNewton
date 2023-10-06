@@ -4,6 +4,7 @@ import objax
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
+%matplotlib inline
 import time
 
 print('loading rainforest data ...')
