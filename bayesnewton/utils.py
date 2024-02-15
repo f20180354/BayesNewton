@@ -263,7 +263,7 @@ def input_admin(t, y, r):
     t_train = t[ind, ...]
     y_train = y[ind, ...]
     r_train = r[ind, ...]
-    dt_train = nnp.concatenate([np.zeros((len(ind), 0, 0)), nnp.diff(t_train[:, 0])])
+    dt_train = nnp.concatenate([np.zeros((len(ind), 3, 0)), nnp.diff(t_train[:, 0])])
     return (np.array(t_train, dtype=np.float64), np.array(y_train, dtype=np.float64),
             np.array(r_train, dtype=np.float64), np.array(dt_train, dtype=np.float64))
 
